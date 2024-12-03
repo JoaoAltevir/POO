@@ -50,9 +50,6 @@ public class Disciplina {
 	
 	public void finalizarSemestre() {
 		
-		this.calcularMediaAlunos();
-		this.calcularMediaDisciplina();
-		
 		
 		
 	}

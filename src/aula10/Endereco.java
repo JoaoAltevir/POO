@@ -1,4 +1,4 @@
-package aulaAssociacoes1;
+package aula10;
 
 public class Endereco {
 	private String logradouro;
