@@ -4,8 +4,8 @@ public class Aluno extends Pessoa{
 	
 	private String curso;
 
-	public Aluno(String nome, int idade) {
-		super(nome, idade);
+	public Aluno(String nome, int idade, Endereco endereco) {
+		super(nome, idade, endereco);
 		this.curso = null;
 	}
 	
@@ -21,7 +21,7 @@ public class Aluno extends Pessoa{
 		System.out.println("=============================");
 		super.imprimirDados();
 		System.out.println("Matriculado em: " + this.curso);
-	
+		this.endereco.imprimirEndereco();
 	}
 	
 	

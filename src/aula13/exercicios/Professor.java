@@ -6,9 +6,9 @@ public class Professor extends Pessoa{
 	private double salarioTitulacao;
 	private double salarioTotal;
 	
-	public Professor(String nome, int idade, double salarioBase, double salarioTitulacao) {
+	public Professor(String nome, int idade, double salarioBase, double salarioTitulacao, Endereco endereco) {
 		
-		super(nome, idade);
+		super(nome, idade, endereco);
 		
 		this.salarioBase = salarioBase;
 		this.salarioTitulacao = salarioTitulacao;
@@ -29,6 +29,8 @@ public class Professor extends Pessoa{
 		System.out.println("Salário base: " + this.salarioBase);
 		System.out.println("Salário titulação: " + this.salarioTitulacao);
 		System.out.println("Salário total: " + this.salarioTotal);
+		System.out.println("Endereço: ");
+		this.endereco.imprimirEndereco();
 		
 	}
 	

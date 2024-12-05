@@ -19,7 +19,11 @@ public class Endereco {
 	}
 	
 	public void imprimirEndereco() {
-		
+		System.out.println("Logadouro: " + this.getLogadouro());
+		System.out.println("Número: " + this.getNumero());
+		System.out.println("Bairro: " + this.getBairro());
+		System.out.println("Cidade: " + this.getCidade());
+		System.out.println("UF:" + this.getUnidadeFederativa());
 	}
 
 
