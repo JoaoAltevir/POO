@@ -10,6 +10,8 @@ public class Calculadora {
 		return num1 + num2;
 	}
 	
-	public List<integer> somar(int listaNumeros) 
+	public  somar(List<Integer> listaNumeros){
+		
+	}
 	
 }
