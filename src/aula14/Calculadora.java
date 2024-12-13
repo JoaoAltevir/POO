@@ -1,5 +1,8 @@
 package aula14;
 
+import java.util.List;
+import java.util.ArrayList;
+
 public class Calculadora {
 	
 	public int somar(int num1, int num2) {
@@ -10,8 +13,11 @@ public class Calculadora {
 		return num1 + num2;
 	}
 	
-	public  somar(List<Integer> listaNumeros){
-		
-	}
-	
+	public  int somar(List<Integer> listaNumeros){
+		int soma = 0;
+		for(int numero: listaNumeros) {
+			soma += numero;
+		}
+		return soma;
+	}	
 }
